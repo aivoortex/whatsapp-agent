@@ -9,6 +9,7 @@ class Settings(BaseSettings):
     database_path: Path = Path("data/agent.db")
     openai_api_key: str | None = None
     openai_model: str = "gpt-4.1-mini"
+    app_api_key: str | None = None
     max_crawl_pages: int = 25
     max_page_bytes: int = 1_000_000
     request_timeout_seconds: float = 10

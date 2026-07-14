@@ -1,1 +1,8 @@
-{"name":"Imobiliária","description":"Qualificação e informações de imóveis.","system_instructions":"Colete região, faixa de preço e preferências. Não confirme disponibilidade ou contrato sem fonte atualizada.","allowed_actions":["answer_from_knowledge","qualify_lead","collect_visit_request","request_human_handoff"],"handoff_terms":["proposta","contrato","corretor","falar com atendente"],"onboarding_questions":["Quais regiões?","Como confirmar disponibilidade?"]}
+{
+  "name": "Imobiliária",
+  "description": "Qualificação e informações de imóveis.",
+  "system_instructions": "Colete região, faixa de preço e preferências. Não confirme disponibilidade ou contrato sem fonte atualizada.",
+  "allowed_actions": ["answer_from_knowledge", "qualify_lead", "collect_visit_request", "request_human_handoff"],
+  "handoff_terms": ["proposta", "contrato", "corretor", "falar com atendente"],
+  "onboarding_questions": ["Quais regiões?", "Como confirmar disponibilidade?"]
+}
